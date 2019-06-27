@@ -1,0 +1,595 @@
+DEBUG:telegram.ext.dispatcher:Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000002B42AC77080>
+DEBUG:JobQueue:JobQueue thread started
+DEBUG:telegram.ext.updater:dispatcher - started
+DEBUG:telegram.ext.updater:updater - started
+DEBUG:telegram.ext.updater:Updater thread started (polling)
+DEBUG:telegram.ext.updater:Start network loop retry bootstrap del webhook
+DEBUG:telegram.bot:Entering: delete_webhook
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:telegram.ext.dispatcher:Dispatcher started
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot719910321:AAF7-r3sVpv6i0boiFVX7658PV0pOYtiO_I/deleteWebhook HTTP/1.1" 200 68
+DEBUG:telegram.bot:True
+DEBUG:telegram.bot:Exiting: delete_webhook
+DEBUG:telegram.ext.updater:Bootstrap done
+DEBUG:telegram.ext.updater:Start network loop retry getting Updates
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot719910321:AAF7-r3sVpv6i0boiFVX7658PV0pOYtiO_I/getUpdates HTTP/1.1" 200 394
+DEBUG:telegram.bot:Getting updates: [193532647]
+DEBUG:telegram.bot:[<telegram.update.Update object at 0x000002B42ACA2978>]
+DEBUG:telegram.bot:Exiting: get_updates
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.ext.dispatcher:Processing Update: {'update_id': 193532647, 'message': {'message_id': 33, 'date': 1561673206, 'chat': {'id': 896346890, 'type': 'private', 'first_name': 'Adalberto', 'last_name': 'Navarrete'}, 'text': '/NadaPraFazer cats;programming', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 896346890, 'first_name': 'Adalberto', 'is_bot': False, 'last_name': 'Navarrete', 'language_code': 'pt-br'}}}
+DEBUG:telegram.bot:Entering: get_me
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (3): api.telegram.org
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "GET /bot719910321:AAF7-r3sVpv6i0boiFVX7658PV0pOYtiO_I/getMe HTTP/1.1" 200 133
+DEBUG:telegram.bot:{'id': 719910321, 'first_name': 'Desafio idwall Adalberto', 'is_bot': True, 'username': 'desafio_idwall_adalberto_bot'}
+DEBUG:telegram.bot:Exiting: get_me
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (4): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (5): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (6): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (7): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (8): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (9): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (10): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (11): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (12): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (13): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (14): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (15): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (16): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (17): api.telegram.org
+DEBUG:telegram.bot:Entering: send_message
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot719910321:AAF7-r3sVpv6i0boiFVX7658PV0pOYtiO_I/sendMessage HTTP/1.1" 200 673
+DEBUG:telegram.bot:{'message_id': 34, 'date': 1561673287, 'chat': {'id': 896346890, 'type': 'private', 'first_name': 'Adalberto', 'last_name': 'Navarrete'}, 'text': 'Pontuação = 9488\nSubreddit = cats\nTítulo = Felt cute. Might piss on the carpet later\nComentários = https://old.reddit.com/r/cats/comments/c64nf2/felt_cute_might_piss_on_the_carpet_later/\nLink = https://old.reddit.com/r/cats/comments/c64nf2/felt_cute_might_piss_on_the_carpet_later/', 'entities': [{'type': 'url', 'offset': 99, 'length': 87}, {'type': 'url', 'offset': 194, 'length': 87}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 719910321, 'first_name': 'Desafio idwall Adalberto', 'is_bot': True, 'username': 'desafio_idwall_adalberto_bot'}}
+DEBUG:telegram.bot:Exiting: send_message
+DEBUG:telegram.bot:Entering: send_message
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot719910321:AAF7-r3sVpv6i0boiFVX7658PV0pOYtiO_I/sendMessage HTTP/1.1" 200 677
+DEBUG:telegram.bot:{'message_id': 35, 'date': 1561673288, 'chat': {'id': 896346890, 'type': 'private', 'first_name': 'Adalberto', 'last_name': 'Navarrete'}, 'text': 'Pontuação = 6204\nSubreddit = cats\nTítulo = Adopted a cat. This is how she looks at me\nComentários = https://old.reddit.com/r/cats/comments/c6547p/adopted_a_cat_this_is_how_she_looks_at_me/\nLink = https://old.reddit.com/r/cats/comments/c6547p/adopted_a_cat_this_is_how_she_looks_at_me/', 'entities': [{'type': 'url', 'offset': 100, 'length': 88}, {'type': 'url', 'offset': 196, 'length': 88}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 719910321, 'first_name': 'Desafio idwall Adalberto', 'is_bot': True, 'username': 'desafio_idwall_adalberto_bot'}}
+DEBUG:telegram.bot:Exiting: send_message
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (18): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (19): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (20): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (21): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (22): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (23): api.telegram.org
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot719910321:AAF7-r3sVpv6i0boiFVX7658PV0pOYtiO_I/getUpdates HTTP/1.1" 200 369
+DEBUG:telegram.bot:Getting updates: [193532648]
+DEBUG:telegram.bot:[<telegram.update.Update object at 0x000002B42C054898>]
+DEBUG:telegram.bot:Exiting: get_updates
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.ext.dispatcher:Processing Update: {'update_id': 193532648, 'message': {'message_id': 36, 'date': 1561673325, 'chat': {'id': 896346890, 'type': 'private', 'first_name': 'Adalberto', 'last_name': 'Navarrete'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 896346890, 'first_name': 'Adalberto', 'is_bot': False, 'last_name': 'Navarrete', 'language_code': 'pt-br'}}}
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (24): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (25): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (26): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (27): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (28): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (29): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (30): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (31): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (32): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (33): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (34): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (35): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (36): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (37): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (38): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (39): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (40): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (41): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (42): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (43): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (44): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (45): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (46): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (47): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (48): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (49): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (50): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (51): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (52): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (53): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (54): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (55): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (56): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (57): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (58): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (59): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (60): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (61): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (62): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (63): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (64): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (65): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (66): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (67): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (68): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (69): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (70): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (71): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (72): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (73): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (74): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (75): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (76): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (77): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (78): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (79): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (80): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (81): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (82): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (83): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (84): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (85): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (86): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (87): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (88): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (89): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (90): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (91): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (92): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (93): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (94): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (95): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (96): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (97): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (98): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (99): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (100): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (101): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (102): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (103): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (104): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (105): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (106): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (107): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (108): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (109): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (110): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (111): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (112): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (113): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (114): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (115): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (116): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (117): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (118): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (119): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (120): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (121): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (122): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (123): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (124): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (125): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (126): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (127): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (128): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (129): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (130): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (131): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (132): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (133): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (134): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (135): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (136): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (137): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (138): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (139): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (140): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (141): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (142): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (143): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (144): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (145): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (146): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (147): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (148): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (149): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (150): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (151): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (152): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (153): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (154): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (155): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (156): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (157): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (158): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (159): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (160): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (161): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (162): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (163): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (164): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (165): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (166): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (167): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (168): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (169): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (170): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (171): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (172): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (173): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (174): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (175): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (176): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (177): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (178): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (179): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (180): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (181): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (182): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (183): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (184): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (185): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (186): api.telegram.org
+DEBUG:telegram.ext.updater:Timed out getting Updates: Timed out
+DEBUG:telegram.bot:Entering: get_updates
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (187): api.telegram.org
