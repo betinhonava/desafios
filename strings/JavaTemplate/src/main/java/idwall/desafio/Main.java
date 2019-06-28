@@ -41,7 +41,7 @@ public class Main {
         System.out.println("=========================");
 
         // Run IdwallFormatter
-        final StringFormatter sf = new IdwallFormatter();
+        final StringFormatter sf = new IdwallFormatter(limit, justify);
         String outputText = sf.format(text);
 
         // Print output text
